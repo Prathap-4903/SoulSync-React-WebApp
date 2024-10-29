@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          SoulSync
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
