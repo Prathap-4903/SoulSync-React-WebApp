@@ -19,7 +19,6 @@ export const createPost = async (req, res) => {
       comments: [],
     });
     await newPost.save();
-
     const post = await Post.find();
     res.status(201).json(post);
   } catch (err) {
